@@ -40,7 +40,7 @@ This project was created by [Garrett Fincke](https://github.com/ggfincke) & Yash
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tcghub.git
+   git clone https://github.com/ggfincke/TCGhub
    cd tcghub
    ```
 
