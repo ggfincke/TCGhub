@@ -49,12 +49,25 @@ This project was created by [Garrett Fincke](https://github.com/ggfincke) & Yash
    npm install
    ```
 
-3. Start the development server:
+3. Start the React development server (frontend):
    ```bash
    npm start
    ```
 
-The application will be available at `http://localhost:3000`
+   This will run the client at `http://localhost:3000`.
+
+4. In another terminal **from the same `tcghub` directory** start the API/database server (backend):
+
+   ```bash
+   node src/server/api.jsx
+   ```
+
+   - The API will listen on `http://localhost:3001`.
+   - The server opens the local SQLite file (`src/data/data.sqlite`), so **no separate database service is required**.  
+     To auto-reload on changes you can instead run:  
+     ```bash
+     npx nodemon src/server/api.jsx
+     ```
 
 ## 📁 Project Structure
 
